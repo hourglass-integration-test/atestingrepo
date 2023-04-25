@@ -16,7 +16,7 @@ public class Sftp {
         JSch jsch = new JSch();
         session = jsch.getSession("ubuntu", "192.69.69.69",22);
         // ruleid: jsch-hardcoded-secret
-        session.setPassword("aaaaa");
+        session.setPassword("aasdfasdfasdasdfaaa");
         // ok: jsch-hardcoded-secret
         session.setPassword(config);
         // ruleid: jsch-hardcoded-secret
